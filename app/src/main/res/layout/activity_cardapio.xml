@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="157dp"
+        android:layout_height="458dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="134dp"
+                android:layout_height="139dp"
+                app:srcCompat="@drawable/feijoada" />
+
+            <Button
+                android:id="@+id/btPrato1"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="Adicionar a Pedidos" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="140dp"
+                android:layout_height="137dp"
+                app:srcCompat="@drawable/camarao_amostra" />
+
+            <Button
+                android:id="@+id/btPrato"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:text="Adicionar a Pedidos" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="151dp"
+        android:layout_height="633dp"
+        android:layout_marginTop="28dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textDescPrato1"
+            android:layout_width="145dp"
+            android:layout_height="36dp"
+            android:text="Feijoda caseira, feita em fogão a lenha" />
+
+        <TextView
+            android:id="@+id/textPrecPrato1"
+            android:layout_width="121dp"
+            android:layout_height="57dp"
+            android:text="Preço por Porção: 350g: R$10,00 500g: R$15,00" />
+
+        <TextView
+            android:id="@+id/textEspaço"
+            android:layout_width="match_parent"
+            android:layout_height="108dp" />
+
+        <TextView
+            android:id="@+id/textDescPrato2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Porção Frutos do mar, Camarão Frito" />
+
+        <TextView
+            android:id="@+id/textPrecPrato2"
+            android:layout_width="132dp"
+            android:layout_height="53dp"
+            android:text="Preço por Porção: 300g: R$ 23,00  500g: R$35,00" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

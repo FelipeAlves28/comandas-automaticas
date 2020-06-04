@@ -1,4 +1,4 @@
-package com.example.comandas_automaticas;
+package com.example.pedido_rapido;
 
 import org.junit.Test;
 

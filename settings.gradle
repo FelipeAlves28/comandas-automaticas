@@ -1,2 +1,2 @@
-rootProject.name='comandas-automaticas'
+rootProject.name='Pedido_Rapido'
 include ':app'
